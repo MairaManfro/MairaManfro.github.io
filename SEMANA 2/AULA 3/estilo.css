@@ -1,0 +1,76 @@
+html, body{
+    margin: 0;
+
+}
+
+#imagemfundo{
+    background-image: url(img/fundo8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#titulo{
+    color: white;
+    padding-top: 5%;
+    font-size: 150px;
+    margin: 0%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#titulo2{
+    color: white;
+    padding-top: 0%;
+    font-size: 50px;
+    margin: 0%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#subtitulo{
+    color: white;
+    font-size: 130%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+#acao{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.459);
+    border: 2px white solid;
+    border-radius: 20px;    
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.icone{
+    width: 55px;
+}
+
+.destaque{
+    background-color: green;
+}
+
+section{
+    padding: 20px;
+}
+
+.imgeco{
+    width: 30%;
+}
+
+#projeto{
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+}
