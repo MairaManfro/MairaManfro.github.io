@@ -1,0 +1,228 @@
+html, body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.822);
+    color: green;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+#menu{
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+li{
+    float: left;
+    padding: 18px 20px 18px 20px;    
+}
+
+li:hover{
+    background-color: rgb(0, 194, 0);
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(1, 58, 1);
+    font-weight: bold;
+}
+
+#imagemfundo{
+    background-image: url(img/fundo8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#titulo{
+    color: white;
+    padding-top: 5%;
+    font-size: 500%;
+    margin: 0%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#titulo2{
+    color: white;
+    padding-top: 0%;
+    font-size: 150%;
+    margin: 0%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#subtitulo{
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+#acao{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.459);
+    border: 2px white solid;
+    border-radius: 20px;    
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.icone{
+    width: 55px;
+    padding: 20px;
+}
+
+.destaque{
+    background-color: rgba(188, 248, 188, 0.288);
+    color: black;
+}
+
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+
+.imgeco{
+    width: 80%;
+}
+
+#acao:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+    font-weight: 545;
+}
+
+.icone:hover{
+    background-color: rgba(0, 194, 0, 0.295);
+    border-radius: 23px;
+}
+
+img:hover{
+    transform: scale(1.022);
+}
+
+img{
+    transition: 500ms;
+}
+
+.coluna{
+    float: left;
+    padding: 0% 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0% 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+.cinco{
+    width: 10%;
+}
+
+#sobre img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgba(0, 194, 0, 0.801);
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.topo{
+    padding-top: 10%;
+}
+
+.tj{
+    text-align: justify;
+}
+
+.border{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.dborder{
+    border: 5px solid rgba(188, 248, 188, 0.288);
+    border-radius: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(0, 194, 0, 0.801);
+}
+
+.topopadding{
+    padding-top: 50px;
+}
+/*Vai observar o tamanho da tela, que está consumindo o site, e fazer as adaptações de acordo com as especificações.*/
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+
+    #titulo{
+        padding-top: 10%;
+    }
+
+    #subtitulo{
+        font-size: 130%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
